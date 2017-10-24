@@ -1,4 +1,4 @@
-# Connect to wireless network as client
+# Connect to the network from C.H.I.P
 import network
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
