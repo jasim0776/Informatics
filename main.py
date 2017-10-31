@@ -1,6 +1,6 @@
 import socket
 from machine import Pin
-
+#hey bass , i have chamged our repository
 led_pin = Pin(5, Pin.OUT)
 
 CONTENT = """\
@@ -21,7 +21,7 @@ def main():
     s = socket.socket()
     ai = socket.getaddrinfo("0.0.0.0", 8080)
     print("Bind address info:", ai)
-    addr = ai[0][-1]
+    addr = ai[1][-2]
 
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     s.bind(addr)
