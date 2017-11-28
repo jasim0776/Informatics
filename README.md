@@ -12,7 +12,7 @@ Running:
 First clone the repository to your computer via Git. Following commands are for Linux, Mac and Windows.
 
 ```sh
-https://github.com/bassmanity12/Informatics.git
+https://github.com/jasim0776/Informatics.git
 cd IoT-Server
 ```
 
